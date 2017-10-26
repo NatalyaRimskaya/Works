@@ -21,7 +21,6 @@ public class SimpleTest {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
-    @SuppressWarnings({"unused", "UnnecessaryParentheses"})
     @Test
     public void testTtdasfguhapsdfuhyoaisduf() throws Exception {
         driver.get(baseUrl + "/");
